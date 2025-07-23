@@ -63,19 +63,30 @@ cd prodigy-job-portal
 
 **Environment Configuration:**
 Create .env files in both the client/ and server/ folders.
+
 **server/.env**
 MONGODB_URI=your_mongodb_uri
+
 CLERK_SECRET_KEY=your_clerk_secret_key
+
 JWT_SECRET=your_jwt_secret
+
 CLOUDINARY_CLOUD_NAME=your_cloud_name
+
 CLOUDINARY_API_KEY=your_api_key
+
 CLOUDINARY_API_SECRET=your_api_secret
+
 SENTRY_DSN=your_sentry_dsn
+
 CLERK_WEBHOOK_SECRET=your_svix_webhook_secret
+
 PORT=5000
 
 **client/.env**
+
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+
 VITE_API_BASE_URL=http://localhost:5000/api
 
 💻 **Running the App**
