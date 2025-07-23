@@ -1,6 +1,7 @@
-**Prodigy – A Full-Stack Job Portal (MERN)**
-Prodigy is a feature-rich job portal built using the powerful MERN stack (MongoDB, Express.js, Reac
-Prodigy is a feature-rich job portal built using the powerful MERN stack (MongoDB, Express.js, React, Node.js). The platform provides seamless functionality for both recruiters and job seekers, each with their own tailored dashboards and workflows.
+**Prodigy - MERN STACK JOB PORTAL**
+Prodigy is a modern, feature-rich job portal built using the MERN stack (MongoDB, Express.js, React, Node.js).
+It offers a seamless experience for both recruiters and job seekers, each with their own dedicated dashboards and workflows.
+Whether you're a company looking to post job listings or a candidate searching and applying for opportunities, Prodigy provides the tools and interface to make the process efficient and user-friendly.
 
 **📸 Live Preview: https://prodigy-portal.vercel.app/**
 
