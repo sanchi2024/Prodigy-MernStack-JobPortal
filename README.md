@@ -1,132 +1,87 @@
-# Prodigy - MERN Stack Job Portal
+**Prodigy – A Full-Stack Job Portal (MERN)**
+Prodigy is a feature-rich job portal built using the powerful MERN stack (MongoDB, Express.js, Reac
+Prodigy is a feature-rich job portal built using the powerful MERN stack (MongoDB, Express.js, React, Node.js). The platform provides seamless functionality for both recruiters and job seekers, each with their own tailored dashboards and workflows.
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+**📸 Live Preview: https://prodigy-portal.vercel.app/**
 
-A modern job portal application built with the MERN stack (MongoDB, Express, React, Node.js) where recruiters/companies can post jobs and applicants can search/apply for opportunities. Features dedicated dashboards for both recruiters and applicants.
+🔑 Key Highlights
+👨‍💼 **For Recruiters**
+- Post new job openings
+- Manage and update job listings
+- View and track applicants for each posting
+- Personalize company profiles
+- Visual analytics on hiring activity
 
+🧑‍💻 **For Applicants**
+- Browse and filter jobs by keywords or categories
+- Apply to jobs with uploaded resumes
+- Manage and monitor application status
+- Create and edit applicant profiles
 
-## Screenshots
-
-![Startup Website Screenshot](./Prodigy.gif)
-
-
-## ✨ Features
-
-**Recruiters/Companies:**
-- Create and manage job postings
-- View applications for posted jobs
-- Dashboard with analytics and job management
-- Company profile customization
-
-**Applicants:**
-- Search/filter job listings
-- Apply to jobs with resume/CV
-- Track application statuses
-- Applicant profile management
-
-**General:**
-- Authentication with Clerk
-- Error monitoring with Sentry
+🧩 **Platform Features**
+- User authentication powered by Clerk
 - File uploads via Cloudinary
-- Responsive UI with Tailwind CSS
-- RESTful API with JWT authentication
-## 🛠️ Tech Stack
+- Error tracking integrated with Sentry
+- Secure REST API using JWT
+- Responsive design using Tailwind CSS
 
+🧱 **Tech Stack**
+⚙️ **Frontend**
+- React + Vite
+- Tailwind CSS for styling
+- React Router for navigation
+- Axios for API calls
+- Chart.js for data visualization
+
+🧪 **Backend**
+- Node.js with Express
+- MongoDB + Mongoose for database
+- JSON Web Tokens (JWT) for auth
+- Bcrypt for secure password hashing
+- CORS for cross-origin requests
+- Svix for webhook handling
+
+🔗 **Integrations**
+- Clerk – User Authentication
+- Cloudinary – Image & Resume Uploads
+- Sentry – Bug/Crash Reporting
+
+**🧾 Installation Steps**
+**Clone the repository:**
+git clone https://github.com/yourusername/prodigy-job-portal.git
+cd prodigy-job-portal
+
+**Install dependencies:**
 **Frontend:**
-- React (Vite)
-- Tailwind CSS
-- React Router
-- Axios
-- Chart.js (for dashboards)
-
+- cd client
+- npm install
 **Backend:**
-- Express.js
-- Mongoose (MongoDB ODM)
-- JSON Web Tokens (JWT)
-- Bcrypt (password hashing)
-- CORS
-- Svix (webhooks)
+- cd server
+- npm install
 
-**Third-Party Services:**
-- Clerk (Authentication)
-- Sentry (Error Tracking)
-- Cloudinary (File Storage)
-## 🚀 Getting Started
+**Environment Configuration:**
+Create .env files in both the client/ and server/ folders.
+**server/.env**
+MONGODB_URI=your_mongodb_uri
+CLERK_SECRET_KEY=your_clerk_secret_key
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+SENTRY_DSN=your_sentry_dsn
+CLERK_WEBHOOK_SECRET=your_svix_webhook_secret
+PORT=5000
 
-### Prerequisites
-- Node.js (v18+)
-- MongoDB Atlas account
-- Clerk, Sentry, and Cloudinary accounts
+**client/.env**
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+VITE_API_BASE_URL=http://localhost:5000/api
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/prodigy-job-portal.git
-   cd prodigy-job-portal
-
-2.  **Client**
-
-    * cd client
-
-    * npm install
-
- **Server**
-
-    * cd ../server
-    * npm install
-
-3. **Environment Setup**
-
-Create .env files in both client/ and server/ directories:
-
-* Server (.env):
-
-    MONGODB_URI=your_mongodb_uri
-    CLERK_SECRET_KEY=your_clerk_secret_key
-    JWT_SECRET=your_jwt_secret
-    CLOUDINARY_CLOUD_NAME=your_cloud_name
-    CLOUDINARY_API_KEY=your_api_key
-    CLOUDINARY_API_SECRET=your_api_secret
-    SENTRY_DSN=your_sentry_dsn
-    CLERK_WEBHOOK_SECRET=your_svix_webhook_secret
-    PORT=5000
-
-* Client (.env):
-
-    VITE_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
-    VITE_API_BASE_URL=http://localhost:5000/api
+💻 **Running the App**
+**Start the backend server:**
+- cd server
+- npm run dev/ npm run server
+**Start the frontend in a separate terminal:**
+- cd client
+- npm run dev
 
 
-# Start backend server
-* cd server
-
-* npm run dev
-
-# Start frontend (in separate terminal)
-* cd client
-
-* npm run dev
-
-
-## 🚀 Contributions
-
-Contributions are welcome! Please follow these steps:
-
-**Fork the repository**
-
-* Create your feature branch (git checkout -b feature/AmazingFeature)
-
-* Commit your changes (git commit -m 'Add some AmazingFeature')
-
-* Push to the branch (git push origin feature/AmazingFeature)
-
-* Open a Pull Request.
-
-
-📄 License
-This project is licensed for **personal, non-commercial use only**.
-Commercial use, including but not limited to incorporating this code into proprietary software or services, is strictly prohibited without prior written consent.
-Any unauthorized commercial use may result in legal action.
-Note: Use of this software is prohibited by individuals or entities located in India.
-© 2025 Mazher. All rights reserved.
