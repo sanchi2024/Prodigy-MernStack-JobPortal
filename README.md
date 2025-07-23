@@ -6,6 +6,7 @@ Whether you're a company looking to post job listings or a candidate searching a
 **📸 Live Preview: https://prodigy-portal.vercel.app/**
 
 🔑 Key Highlights
+
 👨‍💼 **For Recruiters**
 - Post new job openings
 - Manage and update job listings
